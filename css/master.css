@@ -1,0 +1,131 @@
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .mainhead{
+
+
+     font-size: 50px;
+
+     display: inline-block;
+     text-align: center;
+
+  }
+  p{
+    text-align: center;
+    font-size: 18px;
+  }
+  .link-mid-button{
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+
+    border: 3px;
+    border-style: solid;
+    padding: 5px 10px;
+
+  }
+  .mid-container{
+    width: 85%;
+    margin: 150px auto 200px auto;
+    text-align: center;
+  }
+
+}
+body{
+  text-align: center;
+  margin-left: 0px;
+  margin-right:0px;
+  margin-top: 0px;
+  margin-bottom: 0;
+
+
+}
+.top-container{
+position: relative;
+margin: 20px auto 30px auto;
+width: 85%;
+height: 35px;
+
+}
+.logo{
+  top:6px;
+position: absolute;
+left: 0;
+}
+.link-top{
+ top:9px;
+
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+  color: grey;
+
+}
+#link1{
+  position: absolute;
+  right: 280px;
+}
+#link2{
+  position: absolute;
+  right: 220px;
+}
+#link3{
+  position: absolute;
+  right: 130px;
+}
+
+
+.link-top-button{
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  color: grey;
+  margin-left: 10px;
+  text-align: right;
+  border: 3px;
+  border-style: solid;
+  padding: 5px 10px;
+  top:1px;
+text-transform: uppercase;
+
+
+}
+
+
+@media (min-width: 1281px) {
+  .mid-container{
+    width: 85%;
+    margin: 150px auto 200px auto;
+    text-align: left;
+  }
+
+  .mainhead{
+     width:23%;
+     font-size: 70px;
+  }
+  .link-mid-button{
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+    margin-left: 0;
+    margin-top: 7px;
+    border: 3px;
+    border-style: solid;
+    padding: 5px 10px;
+
+  }
+
+}
+
+
+.mid-image{
+  width: 450px;
+  height: 500px;
+  float: right;
+  margin-left: 10px;
+}
+
+.lower-container{
+  width: 70%;
+  margin: 500px auto 200px auto;
+
+}
